@@ -42,8 +42,8 @@ ul li a:hover .fa-repeat{
     text-shadow: 0 0 15px #00f3ff;
 }
 ul:nth-child(2) li a:hover .fa-text-width{
-    color: rgb(94, 255, 0);
-    text-shadow: 0 0 15px rgb(94, 255, 0);
+    color: rgba(245, 5, 153, 0.925);
+    text-shadow: 0 0 15px rgba(245, 5, 153, 0.925);
 }
 ul:nth-child(2) li a:hover .fa-font{
     color: #f00;
