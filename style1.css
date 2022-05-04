@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #505572;
+}
+ul{
+    position: relative;
+    display: flex;
+    margin: 10px 0;
+}
+ul li{
+    position: relative;
+    list-style: none;
+}
+ul li a{
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: #18191f;
+    line-height: 55px;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 15px;
+    box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.05),
+                3px 3px 3px rgba(0, 0, 0, 0.2)
+}
+ul li a .fa{
+    font-size: 45px;
+    padding-top: 15px;
+    color: #555;
+}
+ul li a:hover .fa-repeat{
+    color: #00f3ff;
+    text-shadow: 0 0 15px #00f3ff;
+}
+ul:nth-child(2) li a:hover .fa-text-width{
+    color: rgb(94, 255, 0);
+    text-shadow: 0 0 15px rgb(94, 255, 0);
+}
+ul:nth-child(2) li a:hover .fa-font{
+    color: #f00;
+    text-shadow: 0 0 15px #f00;
+}
+ul:nth-child(2) li a:hover .fa-paypal{
+    color: rgb(111, 0, 255);
+    text-shadow: 0 0 15px rgb(111, 0, 255);
+}
+ul:nth-child(2) li a:hover .fa-btc{
+    color: rgb(0, 255, 213);
+    text-shadow: 0 0 15px rgb(0, 255, 213);
+}
+ul:nth-child(2) li a:hover .fa-cny{
+    color: rgb(0, 255, 213);
+    text-shadow: 0 0 15px rgb(0, 255, 213);
+}
+ul:nth-child(2) li a:hover .fa-long-arrow-up{
+    color: #0f0;
+    text-shadow: 0 0 15px #0f0;
+}
+fa-long-arrow-up
+ul:nth-child(3) li a:hover .fa{
+    color: #0f0;
+    text-shadow: 0 0 15px #0f0;
+}
