@@ -28,17 +28,17 @@
     <li><a href="#"><i class="fa fa-cny"></i></a></li>
   </ul>
 
-<form action="/action_page.php" method="post">
+<form action="" method="post">
   <div class="imgcontainer">
     <img src="img_avatar2.png" alt="Avatar" class="avatar" style="size: 20px;">
   </div>
 
   <div class="container">
     <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+    <input type="text" placeholder="Enter Username"  required>
 
     <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" id="password" name="psw" required>
+    <input type="password" placeholder="Enter Password" id="password"  required>
     <i class="bi bi-eye-slash" id="togglePassword"></i>
         
     <button type="submit">Login</button>
@@ -46,30 +46,23 @@
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
   </div>
-
-  <!--<div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>-->
 </form>
 <script>
     const togglePassword = document.querySelector("#togglePassword");
     const password = document.querySelector("#password");
-
     togglePassword.addEventListener("click", function () {
-        // toggle the type attribute
+        
         const type = password.getAttribute("type") === "password" ? "text" : "password";
         password.setAttribute("type", type);
         
-        // toggle the icon
+        
         this.classList.toggle("bi-eye");
     });
 
     // prevent form submit
-    const form = document.querySelector("form");
-    form.addEventListener('submit', function (e) {
-        e.preventDefault();
-    });
+    //const form = document.querySelector("form");
+    //form.addEventListener('submit', function (e) {   e.preventDefault();
+  
 </script>
 </body>
 </html>
